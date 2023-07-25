@@ -1,0 +1,15 @@
+int main(){
+    int array[4] = {62,41,13,11};
+    int len;
+    len = 4;
+    int i;
+    int min;
+    i=2;
+    min=1;
+    while(i<=len){
+        if(array[min]>array[i]) then
+            min = i;
+            i = i+1;
+    }
+    return array[min];
+}
